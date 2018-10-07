@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# gozbenko@gmail.com
 import paho.mqtt.publish as publish
 import requests
 import json
@@ -32,4 +33,4 @@ for shop in shops:
   except Exception as e:
     logging.error(u'unable to publish to MQTT broker: %s' % (e))
   else:
-  	logging.info(u'succesful publish: %s/%.2f.' % (shop['prefix'], temp))
+    logging.info(u'succesful publish: %s/%.2f.' % (shop['prefix'], temp))
