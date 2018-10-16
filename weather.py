@@ -10,8 +10,8 @@ logging.basicConfig(format = u'%(filename)s [LINE:%(lineno)d]# %(levelname)-8s [
 shops=[
   {'prefix': 'x508670', 'lat':55.638717, 'lng':37.358320},
   {'prefix': 'x506900', 'lat':55.806397, 'lng':37.614970}]
-openweather_api='37994df6f8aba065bc6718ba31a6604a'
-broker_address='91.238.227.244'
+openweather_api=''
+broker_address=''
 broker_port=1883
 client_id='dbexport'
 keep_alive_interval = 45
